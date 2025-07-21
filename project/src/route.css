@@ -1,0 +1,60 @@
+.main-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 20px;
+}
+
+@media (min-width: 768px) {
+  .main-container {
+    flex-direction: row;
+  }
+}
+
+.sidebar {
+  flex: 1;
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.map-container {
+  flex: 2;
+  height: 500px;
+  background-color: #e6fff4;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.input-field {
+  display: block;
+  width: 100%;
+  margin-bottom: 15px;
+  padding: 10px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+.route-button {
+  width: 100%;
+  padding: 10px;
+  background-color: #218c74;
+  color: white;
+  border: none;
+  font-size: 1rem;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.route-button:hover {
+  background-color: #1e7c66;
+}
+
+.route-info {
+  margin-top: 20px;
+  background-color: #f5f5f5;
+  padding: 15px;
+  border-radius: 6px;
+}

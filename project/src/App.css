@@ -1,0 +1,49 @@
+.app {
+  text-align: center;
+  padding: 50px;
+}
+
+.signup-button {
+  padding: 12px 24px;
+  background-color: #007b5e;
+  color: white;
+  font-size: 16px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.signup-button:hover {
+  background-color: #005f4f;
+}
+
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.4);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+}
+
+.modal-content {
+  background: white;
+  padding: 30px;
+  border-radius: 10px;
+  position: relative;
+  width: 400px;
+}
+
+.close-button {
+  position: absolute;
+  top: 8px;
+  right: 12px;
+  background: none;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+}
